@@ -8,7 +8,7 @@ get_sleep_stage = function(data=c(), parameters=c()) {
   
   timestamp <- as.character(as.POSIXct(data[,1], origin='1970-01-01', tz='UTC'))
 
-  reticulate::source_python("C:/Research/actigraphy/code/SleepStageClassification/ggir_ext/get_sleep_stage.py")
+  reticulate::source_python("C:\Users\Kashif\Documents\GitHub\Sundararajan-SleepClassification-2021\ggir_ext\get_sleep_stage.py")
   result = get_sleep_stage(data, time_interval, modeldir, mode)
   df = as.data.frame(matrix(c(result)))
   return(df)

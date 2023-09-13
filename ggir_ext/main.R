@@ -2,16 +2,16 @@
 # Specify file paths:
 
 # The models you downloaded from https://doi.org/10.5281/zenodo.3752645
-path2models = 'C:/Research/actigraphy/data/results/all/models'
+path2models = 'C:\Users\Kashif\Documents\GitHub\Sundararajan-SleepClassification-2021\models'
 
 # The R script you can download here: https://github.com/wadpac/SleepStageClassification/blob/master/ggir_ext/get_sleep_stage.R
-path2get_sleep_stageR = "C:/Research/actigraphy/code/SleepStageClassification/ggir_ext/get_sleep_stage.R"
+path2get_sleep_stageR = "C:\Users\Kashif\Documents\GitHub\Sundararajan-SleepClassification-2021\ggir_ext\get_sleep_stage.R"
 
 # Directory where the raw accelation files are
-datadir = "C:/Research/actigraphy/data/psgnewcastle2015/test_acc/"
+datadir = "C:\Users\Kashif\Documents\GitHub\Sundararajan-SleepClassification-2021/data/psgnewcastle2015/test_acc/"
 
 # Directory where you want GGIR to store the results
-outputdir = "C:/Research/actigraphy/code/SleepStageClassification/ggir_ext/myresults"
+outputdir = "C:\Users\Kashif\Documents\GitHub\Sundararajan-SleepClassification-2021/ggir_ext/myresults"
 
 # The next 3 lines are specific to your local setup, see reticulate documentation
 # for specifying Python environment
